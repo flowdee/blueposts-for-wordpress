@@ -1,0 +1,92 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ /* Bluepost */
+blockquote.bluepost {
+  background: url("../img/blizz-bluepost-watermark.png") no-repeat scroll right top #13181e;
+  border-color: #333;
+  border-style: solid;
+  border-width: thin;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.8) inset;
+  color: #33a7ff;
+  font-size: 1em;
+  font-style: normal;
+  padding: 8px;
+}
+
+blockquote.bluepost .bluepost__title {
+  background: none repeat scroll 0 0 transparent;
+  border-bottom: 1px dotted #2d2d2d;
+  color: #33a7ff;
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: bolder;
+  height: auto;
+  margin: 0 0 6px;
+  padding: 2px 0 5px 0;
+}
+
+blockquote.bluepost .bluepost__icon {
+  display: inline-block;
+  background: url("../img/blizz-bluepost-icon.gif");
+  width: 22px;
+  height: 15px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  margin-right: 5px;
+}
+
+blockquote.bluepost a,
+blockquote.bluepost a:visited {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+blockquote.bluepost a:hover,
+blockquote.bluepost a:focus,
+blockquote.bluepost a:active {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+blockquote.bluepost strong {
+  color: #fff;
+  font-weight: bold;
+}
+
+blockquote.bluepost p {
+  padding: 5px;
+  font-size: 14px;
+}
+
+blockquote.bluepost p:last-child {
+  margin-bottom: 0;
+}
+
+/* Game specific styles *soon*
+blockquote.bluepost--hearthstone,
+blockquote.bluepost--hearthstone .bluepost__title {
+  color: #fcd144;
+}
+
+blockquote.bluepost--hearthstone .bluepost__icon {
+  background: url("../img/hearthstone.gif");
+  width: 15px;
+  height: 15px;
+}
+
+blockquote.bluepost--diablo,
+blockquote.bluepost--diablo .bluepost__title {
+  color: #DF0000;
+}
+
+blockquote.bluepost--diablo .bluepost__icon {
+  background: url("../img/diablo3.gif");
+  width: 15px;
+  height: 15px;
+}
+*/
